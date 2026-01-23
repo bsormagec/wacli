@@ -1,16 +1,27 @@
 # Changelog
 
-## 0.2.0 - Unreleased
+## 0.3.0 - Unreleased
 
 ### Added
 
-- Start tracking changes for the next release (from 2026-01-23).
+- TBD.
+
+## 0.2.0 - 2026-01-23
+
+### Added
+
+- Messages: store display text for reactions, replies, and media; include in search output.
 - Send: `wacli send file --filename` to override display name for uploads. (#7 — thanks @plattenschieber)
 - Auth: allow `WACLI_DEVICE_LABEL` and `WACLI_DEVICE_PLATFORM` overrides for linked device identity. (#4 — thanks @zats)
 
 ### Fixed
 
 - Build: preserve existing `CGO_CFLAGS` when adding GCC 15+ workaround. (#8 — thanks @ramarivera)
+- Messages: keep captions in list/search output.
+
+### Build
+
+- Release: multi-OS GoReleaser configs and workflow for macOS, linux, and windows artifacts.
 
 ## 0.1.0 - 2026-01-01
 
